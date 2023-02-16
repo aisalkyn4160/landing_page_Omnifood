@@ -1,0 +1,435 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+    color:#555555;
+}
+.bg-pink{
+    width: 100%;
+    background-color: #FDF2E9;
+}
+.bg-grey{
+    width: 100%;
+    background-color:#E5E5E5;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.header-container{
+    max-width: 1400px;
+    display: flex;
+    justify-content: space-between;
+    padding: 43px 30px 100px 30px; 
+    margin: 0 auto;
+}
+.logo{
+    width: 158px;
+    height: 21px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+    list-style: none;
+}
+.nav a{
+    text-decoration: none;
+    color: #333333;
+}
+.try-btn{
+    width: 139px;
+    height: 44px;
+    border-radius: 8px;
+    background-color:#E67E22;
+    font-size: 17px;
+    color:#fff;
+    border: none;
+}
+/* section home */
+.meal-info{
+    display: flex;
+    gap: 30px;
+    padding-bottom: 80px;
+}
+.left h1{
+    font-weight: 700;
+    font-size: 48px;
+    color: #333333;
+    padding-bottom: 32px;
+}
+.left p{
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 32px;
+    padding-bottom: 48px;
+}
+.right-img{
+    width: 46.5%;
+}
+.btn-container{
+    display: flex;
+    gap: 16px;
+    margin-bottom: 64px;
+}
+.start-btn{
+    width: 183px;
+    height: 44px;
+    border-radius: 8px;
+    background-color:#E67E22;
+    font-size: 17px;
+    color:#fff;
+    border: none;
+}
+.learn-btn{
+    width: 142px;
+    height: 44px;
+    background: #FFFFFF;
+    border-radius: 8px;
+    border: none;
+}
+.delivery-info{
+    display: flex;
+    gap: 1rem;
+    align-items:center;
+}
+.delivery-info span::before{
+    content: '250,000+  ';
+    color:#E67E22
+}
+.delivery-info img{
+    width: 194px;
+    height: 44px;
+}
+
+.how-it-works h4{
+    font-size: 14px;
+    text-align: center; 
+    color: #888888;
+    padding-top: 48px;
+    padding-bottom: 32px;
+}
+.magazines-container{
+    display: flex;
+    justify-content: space-around;
+}
+.magazines-container img{
+    width: 10%;
+    padding-top: 32px;
+    padding-bottom: 120px;
+}
+.step-container{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.yellow-title{
+    font-size: 17px;
+    color:#E67E22;
+    padding-bottom: 16px;
+}
+.section-title{
+    font-size: 40px;
+    font-weight: 700;
+    color:#333333;
+}
+.num{
+    font-size: 72px;
+    font-weight: 700;
+    color:#dddddd;
+}
+.step-title{
+    font-size: 32px;
+    font-weight: 700;
+    color:#333333;
+}
+.step1-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 264px;
+}
+.step-right{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 72px;
+}
+.circle1{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    width: 324px;
+    height: 324px;
+    border-radius:50%;
+    background-color:#fff3e9;
+}
+.circle2{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    width: 242px;
+    height: 242px;
+    border-radius:50%;
+    background-color:#E67E22
+}
+.how-it-works .section-title{
+    margin: 16px 0 88px 0; 
+}
+.step-title{
+    margin: 16px 0 88px 0; 
+}
+#step2{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.meals{
+    padding-top: 160px;
+    padding-bottom: 120px;
+}
+.meals .yellow-title, .meals .section-title{
+    text-align: center;
+    padding-bottom: 16px;
+}
+.meals .section-title{
+    padding-bottom: 96px;
+}
+.meals-container{
+    display: flex;
+    gap: 30px;
+}
+.meals-container .meal-card{
+    width: 33%;
+}
+.meals-container img{
+    width: 100%;
+}
+.meal-text{
+    padding: 40px;
+    background-color: #fff;
+}
+.meal-btn{
+    background: #51CF66;
+    border-radius: 25px;
+    border: none;
+    font-size: 13px;
+    color:#333333;
+    padding: 4px 8px;
+    margin-bottom: 14px;
+}
+.paleo{
+    background: #F2C94C;
+}
+.meal-title{
+    font-size: 24px;
+    padding-bottom: 32px;
+}
+.meal-text p{
+    position: relative;
+    padding-left: 48px;
+    margin-bottom: 17px;
+    font-size: 19px;
+    line-height: 32px;
+}
+.meal-text p::before{
+    content:'';
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background: url('./assets/icons/flame.png')no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.meal-text .spoon::before{
+    content:"";
+    background: url('./assets/icons/restaurant.png') no-repeat;
+}
+.meal-text .star::before{
+    content:"";
+    background: url('./assets/icons/star\ 1.png') no-repeat;
+}
+.meal-list-title{
+    font-weight: 700;
+    font-size: 32px;
+    padding-bottom: 40px;
+}
+.meal-list ul{
+    list-style: none;
+}
+.meal-list li{
+    font-weight: 400;
+    font-size: 19px;
+    padding-bottom: 25px;
+}
+.meal-list li::before{
+    content:'';
+    background: url('./assets/icons/checkmark.png') 0 3px no-repeat;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    padding-right: 24px;
+}
+
+.testimonials{
+    padding-top: 32px;
+    padding-bottom: 48px;
+}
+.testimonials-cont{
+    display: flex;   
+}
+.testimonials-reviews{
+    width: 50%;
+    padding: 72px 0;
+}
+.testimonials-reviews .section-title{
+    padding-bottom: 88px;
+}
+.users-reviews{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 48px;
+}
+.user{
+    width: 40%;
+}
+.user img{
+    padding-bottom: 22px;
+}
+.user p{
+    font-size: 19px;
+    padding-bottom: 16px;
+    font-weight: 400;
+}
+.user span{
+    font-size: 17px;
+    color: #999494;
+    font-weight: 400;
+}
+.gallery{
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-right: -10%;
+}
+.gallery img{
+    width: 28%;
+    height: initial;
+}
+.pricing{
+    padding-top: 80px;
+    padding-bottom: 120px;
+    border: 1px solid #DDDDDD;
+}
+.pricing .section-title{
+    padding-bottom: 88px;
+}
+.price-container{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.starter, .complete{
+    width: 440px;
+    border: 1px solid #FFD8B7;
+    border-radius: 12px;
+    padding: 48px 56px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.price-container h3,.price-container p{
+    text-align: center;
+}
+.price-container b{
+    font-weight: 700;
+    font-size: 56px;
+}
+.price-container b::before{
+    content:'$ ';
+    font-weight: 500;
+    font-size: 32px;
+}
+.pricing-list{
+    margin-top: 58px;
+    list-style: none;
+}
+.pricing-list li{
+    font-weight: 400;
+    font-size: 19px;
+    padding-bottom: 25px;
+}
+.pricing-list li::before{
+    content:"";
+    background: url('./assets/icons/checkmark.png') 0 3px no-repeat;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    padding-right: 24px;
+}
+.starter .pricing-list li:last-child::before{
+    content:"";
+    background: url('./assets/icons/cross.png') 0 3px no-repeat;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    padding-right: 24px;
+}
+.complete{
+    background-color:#FDF2E9;
+    border:none;
+    position: relative;
+}
+.complete::after{
+    content:'BEST VALUE';
+    display: inline-block;
+    position: absolute;
+    top: 41px;
+    right: 0;
+    transform: rotate(45deg);
+    font-size: 15px;
+    color:#333333;
+}
+.complete::before{
+    content:'';
+    background: url('./assets/icons/Rectangle 9.png') 3px 0 no-repeat;
+    display: inline-block;
+    width: 130px;
+    height: 130px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.footer-wrap{
+    padding-top: 88px;
+    padding-bottom: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-wrap div{
+    width: 15%;
+}
+.footer-wrap img{
+    width: 70%;
+}
+.footer-wrap p{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    padding-top: 40px;
+}
+.footer-title{
+    font-weight: 700;
+    font-size: 17px;
+}
+.footer-list{
+    list-style: none;
+    padding-top: 32px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 32px;
+}
